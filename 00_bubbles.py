@@ -16,7 +16,7 @@ for _ in range(3):
 def draw_bubble(center_coordinate, radius):
     for _ in range(3):
         radius += 5
-        sd.circle(center_position=center_coordinate, radius=radius)
+        sd.circle(center_position=center_coordinate, radius=radius, color=sd.random_color())
 
 
 # Нарисовать 10 пузырьков в ряд
